@@ -1,0 +1,2012 @@
+[33mcommit fd5c925f8a4bf824a69f5abde4bc2a6f71bac051[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mremovelink[m[33m)[m
+Author: Sindri <125163217+sindrilear@users.noreply.github.com>
+Date:   Tue Sep 2 18:22:12 2025 +0000
+
+    Remove bad link from flexbox introduction
+
+[33mcommit 3affe2d60dc46be3f5d1f1ccc39d02baa39137d5[m[33m ([m[1;31mupstream/main[m[33m, [m[1;31mupstream/HEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Zack Hoang <zackhoang2004@gmail.com>
+Date:   Tue Sep 2 07:46:49 2025 -0700
+
+    Classes: Change Classes Description As Not Only Syntactic Sugar (#30048)
+    
+    * fix: reword JS class syntax as not just syntactic sugar
+    
+    * fix: "ressemble" typo
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+    
+    ---------
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+
+[33mcommit 3fa1383f2e67a25274d94b5ede10f25bc541b93a[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Tue Sep 2 15:44:53 2025 +0100
+
+    Fix template mention of optional note box heading (#30061)
+    
+    With TOP012 custom lint rule, note boxes are required to have a level 4
+    heading title.
+
+[33mcommit b13c17294db38245b96e107ceb1457f35bbee7ff[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Tue Sep 2 15:43:14 2025 +0100
+
+    Markdownlint: Fix TOP009 errors in existing custom rule test files (#30060)
+    
+    * Fix TOP009 errors in existing custom rule test files
+    
+    * Disable TOP008 for TOP006 test file
+    
+    Test file should showcase TOP006 only. TOP008 violation is intentional here, just don't flag it due to error noise.
+
+[33mcommit e12be0481745f1e6796b1776fab872559c2daf81[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Tue Sep 2 15:38:23 2025 +0100
+
+    Fix rule not accounting for indented headings (#30059)
+    
+    Indented note boxes will have indented headings (only time headings must
+    be indented).
+
+[33mcommit 804704f30129a9ddf33c3685a1369897c40eb96f[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Mon Sep 1 13:33:54 2025 +0100
+
+    Markdownlint: New descriptive headings rule (#30057)
+    
+    * Add TOP013 docs
+    
+    * Add new custom rule TOP013 to config
+    
+    * Add custom rule test file
+    
+    * Write descriptive headings custom lint rule
+    
+    * Account for trailing punctuation in headings
+    
+    For example, trailing exclamation marks are allowed by MD026 but
+    `#### Remember!` or `#### Warning!`
+    should still flag this lint rule. The trailing punctuation changes
+    nothing.
+    
+    * Move accessible headings info to Headings section
+    
+    * Remove unnecessary loop
+    
+    * Use American English spelling in error message
+    
+    Consistent with other rules/repo style
+    
+    * Fix typo
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+    
+    ---------
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+
+[33mcommit 97bca8d813e970aa9fa92401ada5423d9fa0236f[m
+Author: Gm Aravind <gmarav005@gmail.com>
+Date:   Mon Sep 1 17:30:13 2025 +0530
+
+    updated ruby docs to 3.4 (#30056)
+
+[33mcommit c58487a01c5e925132fdd04b0d6caaee296f1d2a[m
+Author: Fran Vlahovic <franvlahovic@proton.me>
+Date:   Sun Aug 31 23:21:33 2025 +0200
+
+    DOM Manipulation and Events: Switch order of Assignments #29305 (#30052)
+    
+    * DOM Manipulation and Events: Switch order of Assignments #29305
+    
+    * Add headings to noteboxes
+    
+    ---------
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+
+[33mcommit 92e8e40a095010c5705d6263c7e42f8766303b27[m
+Author: Zack Hoang <zackhoang2004@gmail.com>
+Date:   Sun Aug 31 14:13:44 2025 -0700
+
+    fix: replace CDN link for new image (#30055)
+
+[33mcommit f71194dbb79e4ea9e51beb40238c13b139a6d0cf[m
+Author: Juwon Ajibola <ajibolajuwon5@gmail.com>
+Date:   Sun Aug 31 17:43:14 2025 +0100
+
+    React router: fixed outdated import name (#30051)
+    
+    * reworded react router intro
+    
+    * removed all mentions of react-router-dom and replaced with react-router
+
+[33mcommit 02f3babb44a3d30dccdf6ca30283ac64ec02abbd[m
+Merge: 45bb7cd4a 1359e1f07
+Author: Zach Meyer <34407561+zachmmeyer@users.noreply.github.com>
+Date:   Sat Aug 30 11:19:48 2025 -0400
+
+    Merge pull request #30046 from ZackHoang/fix/foundations_landing_page_quote_style
+    
+    Landing Page: Update Font and Style Guide Image
+
+[33mcommit 45bb7cd4a79e7c6a57a10321ea831bd1f13e3e1b[m
+Author: arvingarciabtw <arvin@arvinagarcia.com>
+Date:   Sat Aug 30 20:21:06 2025 +0800
+
+    Fix typo in introduction section (#30049)
+    
+    Replace "straight forward" with the correct form "straightforward" to improve clarity and accuracy
+
+[33mcommit 7c58967b1824484f2a5c28fbd90ad456e29ebdd0[m
+Author: arvingarciabtw <arvin@arvinagarcia.com>
+Date:   Sat Aug 30 19:54:13 2025 +0800
+
+    Positioning Grid Elements: Add CSS grid cheatsheet to additional resources (#29990)
+    
+    * Add CSS grid cheatsheet to additional resources
+    
+    * Move grid cheatsheet to positioning lesson
+    
+    Also remove flexbox cheatsheet from flexbox/grid lesson per reviewer
+    feedback
+
+[33mcommit 1359e1f071f315a25e844ed3bf6a53966f6483f0[m
+Merge: 1ee874984 4c5aea6d9
+Author: Zack <zackhoang2004@gmail.com>
+Date:   Fri Aug 29 11:16:31 2025 -0700
+
+    Merge branch 'main' into fix/foundations_landing_page_quote_style
+
+[33mcommit 1ee8749849346a3a5fcdc99e8690a114372e362e[m
+Author: Zack <zackhoang2004@gmail.com>
+Date:   Fri Aug 29 11:15:21 2025 -0700
+
+    fix: update landing page's image two
+    
+    fix quote text description that said 'light italic'
+
+[33mcommit 4c5aea6d9a5d4dffee9b11b3d26369ac5f47c90c[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Fri Aug 29 08:29:15 2025 +0100
+
+    Shopping cart: Separate cart features to separate third page (#30043)
+    
+    * Rewrite instructions for clarity with 3 separate pages
+    
+    More consistent and intuitive with most shopping sites out there, and no
+    need to overspecify some things like the cart contents quantity only on a
+    step for a specific page.
+    
+    * Convert deployment options to an unordered list
+    
+    No semantic justification for an ordered list
+    
+    * Fix unordered list item syntax
+    
+    * Streamline cart page requirements
+
+[33mcommit 77bc499d0eecf57e24eec268342992502fd68131[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Thu Aug 28 21:27:43 2025 +0100
+
+    Webpack: Specify type property is referring to a top-level property (#30045)
+    
+    * Specify type property is referring to a top-level property
+    
+    Avoids confusing with nested type properties e.g.git.type
+    
+    * Add mandatory note box heading
+    
+    Appeases TOP012 lint rule
+    
+    * Combine paragraphs for clarity
+
+[33mcommit 7b56076875eb66402ef1aeeed937e7e421026d67[m
+Author: Juwon Ajibola <ajibolajuwon5@gmail.com>
+Date:   Thu Aug 28 19:45:01 2025 +0100
+
+    made kevin a flying octopus (#30040)
+
+[33mcommit d6a38f54709cc2caaa042c229c41a952ae025458[m
+Author: Rohan <rohan151025@gmail.com>
+Date:   Fri Aug 29 00:08:19 2025 +0530
+
+    Update introduction_to_react.md "additional resources" section (#30037)
+    
+    The youtube channel "Honeypot" changed their name to "CultRepo" so I thought to change it here as well.
+
+[33mcommit f5bb2537b8f78f8fe9f9a599f10d2b2229e94a74[m
+Author: James Couball <jcouball@yahoo.com>
+Date:   Thu Aug 28 11:28:36 2025 -0700
+
+    Fix spelling of 'Froot Loops' in loops.md (#30034)
+    
+    It is a common misconception that the spelling is 'Fruit Loops' but it is actually 'Froot Loops'.
+    
+    Here is [an interesting article about the spelling of Froot Loops](https://www.wikihow.com/Fruit-Loops-Mandela-Effect).
+
+[33mcommit 1f1f61af887453716fba624b4330093aec19c8c5[m
+Author: Abdulrahman Ali <150652018+BodiAli@users.noreply.github.com>
+Date:   Tue Aug 26 21:07:26 2025 +0300
+
+    Update testing_database_operations.md
+    
+    Fix: Remove AND list operator (&&)
+
+[33mcommit 908038333402674c664aa6b921a06633abd03a1f[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Wed Aug 27 00:04:04 2025 +0100
+
+    Provide heading for critical note box
+    
+    Note box location moved due to lint-enforced heading structure (TOP004 rule)
+
+[33mcommit 70d33648a0c94e939f1101a492032f841de5d3b3[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Tue Aug 26 23:57:20 2025 +0100
+
+    Add step for server-side validation in assignment
+
+[33mcommit 5d52730305b7d3ad948dda17715f53b83a780a31[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Fri Aug 22 15:21:19 2025 +0100
+
+    Style guide: Document mandatory note box headings/indentation (#30014)
+    
+    * Document mandatory note box headings
+    
+    * Document heading indentation rules
+
+[33mcommit 957393f0934f065fa54584c28eccbd459a8a89ec[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Fri Aug 22 15:14:50 2025 +0100
+
+    Intro to CSS: Replace references to HTML comments with line numbers (#30015)
+    
+    * Replace references to HTML comments with line numbers
+    
+    * Provide headings for note boxes
+    
+    Required by style guide and appeases linter
+
+[33mcommit c93c42f4286e739aed3dd7adaeb5ca15ed374845[m
+Author: Prin <98200861+Prin-S@users.noreply.github.com>
+Date:   Fri Aug 22 21:12:04 2025 +0700
+
+    Update introduction_what_is_nodeJS.md (#30016)
+    
+    NodeJS is a prerequisite for back-end, rather than front-end, development work.
+
+[33mcommit 51b3b12f52f28b962f07eea454d9aa15f93878ca[m
+Merge: c8b3e2385 61e19ea9d
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Tue Aug 19 11:38:23 2025 -0400
+
+    Merge pull request #30012 from ZackHoang/fix/nodejs_deployment_neon_description
+    
+    Deployment: Add Neon's Free Tier Specification
+
+[33mcommit 61e19ea9d9e979a5caf7c3b1210a061df9e28e48[m
+Merge: f8246fbbc c8b3e2385
+Author: Zack <zackhoang2004@gmail.com>
+Date:   Mon Aug 18 18:16:14 2025 -0700
+
+    Merge branch 'main' into fix/nodejs_deployment_neon_description
+
+[33mcommit f8246fbbcedeea7e8406e94a7c6fc81b6a993f51[m
+Author: Zack <zackhoang2004@gmail.com>
+Date:   Mon Aug 18 18:12:58 2025 -0700
+
+    fix: add free tier specifications to Neon
+    
+    add the number of possible projects with free tier for Neon and storage per project. Also, add a missing heading regarding server and database instances which was missing, caught by the markdown linter.
+
+[33mcommit c8b3e2385cc5a809c71626834e2433c83960b16c[m
+Merge: 0e1193dec 6199695a8
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Mon Aug 18 16:31:56 2025 -0400
+
+    Merge pull request #30008 from HamzaIbrahimi/ordered_list_feature
+    
+    Project Recipes: Change the deployment steps to an ordered list
+
+[33mcommit 0e1193decbf945fc5158d63ee0a63ba5cf98f7bc[m
+Merge: e58421a2e cecf8e001
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Mon Aug 18 16:27:56 2025 -0400
+
+    Merge pull request #30006 from ZackHoang/fix/nodejs_controllers_article_add_note
+    
+    NodeJS: add a note about an article in controllers lesson
+
+[33mcommit 6199695a8573d2e8e5a39b9727dd68effaf69136[m
+Author: HamzaIbrahimi <132024580+HamzaIbrahimi@users.noreply.github.com>
+Date:   Sun Aug 17 00:40:33 2025 +0200
+
+    Use ordered list for deployment instructions
+
+[33mcommit cecf8e001fec5e25d081645061646ec4764dc9ff[m
+Merge: f16ef32b4 e58421a2e
+Author: Zack <zackhoang2004@gmail.com>
+Date:   Sat Aug 16 12:11:16 2025 -0700
+
+    Merge branch 'main' into fix/nodejs_controllers_article_add_note
+
+[33mcommit f16ef32b430334824f9ce8d61beaabc86c21af68[m
+Author: Zack <zackhoang2004@gmail.com>
+Date:   Sat Aug 16 12:09:34 2025 -0700
+
+    fix: add a note on outdated practice for async handlers
+
+[33mcommit e58421a2e0c69e478a2e8a7ebff6246cc0fd2eac[m
+Merge: 6cd8a2a8d 1f664b48b
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Sat Aug 16 14:08:18 2025 -0400
+
+    Merge pull request #29901 from goran1010/change_link_introduction_to_git
+    
+    Introduction to Git: Change knowledge question link to appropriate resource
+
+[33mcommit 6cd8a2a8d3f88802464d50277d2fc402ddd9dbe0[m
+Merge: 276a892d1 17c8b8ee3
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Fri Aug 15 17:53:19 2025 -0400
+
+    Merge pull request #30001 from mao-sz/js-more-testing-assignment
+    
+    More Testing: Move assigned reading to assignment section
+
+[33mcommit 17c8b8ee384cf9ab50a9519803edebc10c6316eb[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Fri Aug 15 14:09:55 2025 +0100
+
+    Move assigned reading to assignment section
+
+[33mcommit 276a892d123aa86156f3404cce308db9833dde09[m
+Merge: 419533f5d 5ccf92077
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Aug 14 15:33:46 2025 -0400
+
+    Merge pull request #29996 from ZunedKhan07/fix/replace-codecademy-link-29977
+    
+    Intro to HTML and CSS lesson: Replace outdated Codecademy link
+
+[33mcommit 419533f5d0972771a6eb54f125387985c06152f3[m
+Merge: d57d44e69 1d3f0b55b
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Aug 14 15:03:38 2025 -0400
+
+    Merge pull request #29998 from mao-sz/installations-note-box-headings
+    
+    Installations: Add headings to headingless note boxes
+
+[33mcommit d57d44e69980a4d0d9480874aca39c8210096f75[m
+Merge: 2e99cbd01 4eb833486
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Aug 14 15:00:27 2025 -0400
+
+    Merge pull request #29997 from mao-sz/installations-note-box
+    
+    Installations: Use note box for supported hardware/software warning
+
+[33mcommit 1d3f0b55b43a34676fff0ad732e20847029895bf[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Thu Aug 14 14:35:11 2025 +0100
+
+    Add headings to headingless note boxes
+    
+    Satisfies TOP012 linting rule
+
+[33mcommit 4eb833486a54552d70b4bfe8ccfe63bb2d884ee8[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Thu Aug 14 14:24:36 2025 +0100
+
+    Rephrase conditional installation instruction for clarity
+
+[33mcommit 108eea546aef9173bba71c837a4bd8658e30c520[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Thu Aug 14 14:22:42 2025 +0100
+
+    Use warning note box for important OS installation note
+    
+    Increases visibility and with a more descriptive subheading.
+
+[33mcommit 2e99cbd01005e0db2a97021b687323d6ebf73ff1[m
+Author: mao-sz <122839503+mao-sz@users.noreply.github.com>
+Date:   Thu Aug 14 12:32:00 2025 +0100
+
+    Combine markdownlint action workflows (#29995)
+    
+    With https://github.com/TheOdinProject/curriculum/pull/28759 having been
+    merged, lesson/project differences are handled by TOP004 itself, so we
+    no longer need separate actions with separate configs.
+    
+    Co-authored-by: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+
+[33mcommit 5ccf920778e9a99a5fd81b4f93f2036ac82f8050[m
+Author: Zuned khan <zunedkhan107@gmail.com>
+Date:   Thu Aug 14 12:41:25 2025 +0530
+
+    fix: replace outdated Codecademy link in intro-to-html-css lesson
+
+[33mcommit 680d5bcdd969a025277aaa7be53b1131b79f19c5[m
+Author: Zuned khan <zunedkhan107@gmail.com>
+Date:   Thu Aug 14 11:11:08 2025 +0530
+
+    fix: replace outdated Codecademy link in intro-to-html-css lesson
+
+[33mcommit 24e3edce601cbac25bf7310d2093b2db40ac9375[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Wed Aug 13 16:57:23 2025 +0100
+
+    Markdownlint: Move required heading structure into TOP004 rule directly (#28759)
+    
+    * Use internal headings array
+    
+    No need to extract from separate custom config
+    
+    * Remove case matching checks
+    
+    Carryover from original rule - we always want to match case with ours
+    
+    * Add detail field for missing heading error
+    
+    Detail field required for VSCode extension error message - context field
+    alone is insufficient.
+    Removed ellipsify method and unused params (carryover from original rule).
+    
+    * Amend TOP004 test files
+    
+    Separated lesson/project tests due to different required headings.
+    Separated different kinds of heading errors from lesson test file.
+    
+    * Remove separate config files
+    
+    * Replace npm scripts without custom configs
+    
+    Default config is .markdownlint-cli2.jsonc. Contributing guide amended accordingly.
+    
+    * Replace references to old fix:* scripts
+    
+    TOP005 also missing a few language exceptions
+    
+    * Update npm lesson's package.json example contents
+    
+    To reflect script changes
+    
+    * Recognise projects with kebab-case file names
+    
+    Some directories e.g. foundations/html_css/html-foundations/ use kebab
+    case instead of snake case. Instead of changing many files (which will
+    need changes in the website repo fixtures), just include leading
+    "project-" in the "isProject" condition.
+    
+    Kebab case test files included, which will behave the same as snake case
+    test files.
+    
+    * Merge branch 'main' into TOP004-config-refactor
+
+[33mcommit 1513c1e32ba9b41f9cd553a44f669b440b023e33[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Wed Aug 13 16:46:50 2025 +0100
+
+    Markdownlint: Add blacklisted exact matches to TOP001 (#28557)
+    
+    * Add blacklisted link text examples to test file
+    
+    * Add blacklisted link text and check to custom rule
+    
+    * Amend TOP001 docs with new blacklisted label criteria
+    
+    * Amend custom rule description
+    
+    More enforcing language
+    
+    * Fix error message grammar
+    
+    * Rename TOP001 rule files
+    
+    Rule name changed in
+    https://github.com/TheOdinProject/curriculum/pull/29890 to avoid
+    clashing with built-in MD059, but I forgot to change the file/dir and
+    paths as well.
+
+[33mcommit 07da7ec054a3762d7e1583a0f9bc23ccc9a0b382[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Wed Aug 13 16:45:45 2025 +0100
+
+    Markdownlint: `note-box-headings` custom rule (#28372)
+    
+    * Add note box heading level test file
+    
+    * Write note box heading level custom rule
+    
+    Add to markdownlint config custom rules array
+    
+    * Add doc file
+    
+    * Rename to TOP011
+    
+    Original propose TOP011 closed
+    
+    * Rename lint rule
+    
+    Now made generic for multiple aspects of note box headings
+    
+    * Enforce level 4 headings for all note boxes
+    
+    Reports error on incorrect level as well as missing heading
+    
+    * Amend TOP011 docs to reflect current rule behaviour
+    
+    * Add info about script fixing to TOP011 docs
+
+[33mcommit b46ff82e588e54ad549f4dbf169e386b27e8302b[m
+Author: Levon <levong2112@gmail.com>
+Date:   Wed Aug 13 10:25:29 2025 -0400
+
+    Intro to Ruby Predicate and Enumerable Methods Lesson: add `#one?` method (#29991)
+    
+    * Update predicate_enumerable_methods.md
+    
+    Add `#one?` method
+    
+    * Update predicate_enumerable_methods.md
+    
+    rmv space
+    
+    * Update ruby/basic_ruby/predicate_enumerable_methods.md
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+    
+    ---------
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+
+[33mcommit 004eac3c9df6e9fbc355707a3d71a770c536babc[m
+Merge: 960eb4c57 dd6d5be74
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Tue Aug 12 15:54:41 2025 -0400
+
+    Merge pull request #29937 from MaoShizhong/css-inheritance-docs
+    
+    The Cascade: Move Formal Definition additional resource to main lesson
+
+[33mcommit 960eb4c57e38526d92999be0bad0eb8ac17511b0[m
+Merge: 578275de1 02f3cc169
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Tue Aug 12 15:53:14 2025 -0400
+
+    Merge pull request #29936 from MaoShizhong/cascade-heading-level
+    
+    The Cascade: Use level 4 heading for note box
+
+[33mcommit 578275de1ee5a1205f0d8b6b43f959e8f19e55ca[m
+Merge: 6a13d3b62 fdeb39ec8
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Tue Aug 12 15:50:43 2025 -0400
+
+    Merge pull request #29929 from MaoShizhong/express-v5-portinuse
+    
+    Express: Include error handling in `app.listen` callback
+
+[33mcommit 6a13d3b624ad12eadea28ecb0eae20f79f3361bb[m
+Merge: d1c5ce5cb 1159ae050
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Tue Aug 12 15:49:53 2025 -0400
+
+    Merge pull request #29927 from cblin321/patch-1
+    
+    React: Fix typo in component_lifecycle_methods.md
+
+[33mcommit d1c5ce5cbaeb99d18531cac9a0c1d7713220b5c0[m
+Merge: 10bea14c3 5fb75993c
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Tue Aug 12 15:48:54 2025 -0400
+
+    Merge pull request #29934 from PaulaMaged/patch-1
+    
+    Fix spelling
+
+[33mcommit 10bea14c3620c1c31f91e4cea5ef100062d0674c[m
+Author: Obinna Obi-Akwari <111562983+A-O-Emmanuel@users.noreply.github.com>
+Date:   Mon Aug 11 21:44:30 2025 +0100
+
+    update DOM_manipulation_and_events.md with additional text (#29988)
+
+[33mcommit a07c488fca0f07ed69bd6b46a8b18099b961d4cd[m
+Author: Sarthak Kumar <sarthakk145@gmail.com>
+Date:   Mon Aug 11 11:46:48 2025 +0530
+
+    Update SuperTest and SuperAgent documentation links (#29984)
+
+[33mcommit 6fe4a7bcf317406d135b095c7ac072b8ba43cbe8[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Sat Aug 9 10:18:53 2025 +0100
+
+    Calculator: Use more descriptive warning note box heading (#29982)
+    
+    * Use more descriptive note box heading
+    
+    Heading ought to be part of the note box itself
+    
+    * Use warning variation for note box
+
+[33mcommit 327491c6ac1ac4d765c85dac23d3b2efe06fb321[m
+Author: Kezy <151378521+Kezy-d4@users.noreply.github.com>
+Date:   Fri Aug 8 11:32:33 2025 -0400
+
+    Using Git in the Real World: Fix grammatical error (#29955)
+
+[33mcommit 063728c918a70bbed7518112cc888aad85c604bf[m
+Author: James Couball <jcouball@yahoo.com>
+Date:   Fri Aug 8 08:32:04 2025 -0700
+
+    Fix class name in selectors discussion (#29938)
+    
+    The class name does not start with a period ".", but the selector does.
+
+[33mcommit efec21c64189b4ab80ab6b545ac50e9e37fc4aab[m
+Author: Abhi <206946888+xerxes324@users.noreply.github.com>
+Date:   Fri Aug 8 21:01:20 2025 +0530
+
+    Update rendering_techniques.md (#29939)
+
+[33mcommit 800968644a151faee422c06dffb441cba6418548[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Fri Aug 8 16:29:57 2025 +0100
+
+    Remove accidental irrelevant paragraph (#29948)
+
+[33mcommit e79de38f42482e233e99e5f4863ab315dbad33a6[m
+Author: tejasps2001 <101341963+tejasps2001@users.noreply.github.com>
+Date:   Fri Aug 8 20:59:26 2025 +0530
+
+    Fix the incorrect use of backticks in Ruby Project Management lesson (#29957)
+    
+    This commit fixes issue #29926 by replacing backticks with double quotes in the food_opinion methods within not_so_green.rb and scheals.rb files. This resolves the "No such file or directory" error caused by incorrect string interpolation and allows the code examples to run as intended, demonstrating method redefinition correctly.
+
+[33mcommit 5a45fdc36fefbb194b482bea0b8e15b5980524e6[m
+Author: Kezy <151378521+Kezy-d4@users.noreply.github.com>
+Date:   Fri Aug 8 11:28:47 2025 -0400
+
+    Test Driven Development: Amend a confusing sentence (#29961)
+
+[33mcommit 2a5668681e8c486cf13e9373c212d2a69c2adad0[m
+Author: Agu Vaitkus <145935152+aguvai@users.noreply.github.com>
+Date:   Fri Aug 8 11:23:37 2025 -0400
+
+    Revise sentence for clarity (#29966)
+
+[33mcommit 52d650df85a85a2f96e0a2e1d4225d370f16807f[m
+Author: candleconch <91436222+candleconch@users.noreply.github.com>
+Date:   Fri Aug 8 18:20:58 2025 +0300
+
+    Modify React rerendering explanation (#29974)
+
+[33mcommit 7afd066de1dd2598cd05c1ae0d25852586b38c16[m
+Author: Isabella Hansmann <136174454+bellitabellota@users.noreply.github.com>
+Date:   Fri Aug 8 16:20:05 2025 +0100
+
+    Remove reference to basic form lesson as there is no mention of fields_for (#29975)
+
+[33mcommit 7660352a1a6a81ea2fdf6692a1cf8e1741a6ae60[m
+Author: Isabella Hansmann <136174454+bellitabellota@users.noreply.github.com>
+Date:   Fri Aug 8 16:19:05 2025 +0100
+
+    Fix typo and refine wording of enum definition (#29980)
+
+[33mcommit 5aff9654d9af92abc4240edd5ff253ded350eb89[m
+Author: Dane <nawpnawp8@gmail.com>
+Date:   Fri Aug 8 01:07:25 2025 +0800
+
+    Private Events: Update assignment tasks (#29971)
+    
+    * fix: change making events private from optional to required
+    
+    * feat: add extra credit for Private Events
+
+[33mcommit ed4084ccf229340641214f0e524d0dd4239e6ae4[m
+Author: Eyad Al-Khalidy <41296016+eyad-alkhalidy@users.noreply.github.com>
+Date:   Tue Aug 5 19:06:19 2025 +0300
+
+    Objects and Object Constructors Lesson: Escape double underscores in __proto__ for proper Markdown rendering (#29967)
+    
+    * Escape double underscores in __proto__ for proper Markdown rendering
+    
+    * Correct capitalization in the proper name JavaScript
+    
+    * Use inline code formatting to distinguish code elements
+    
+    Co-authored-by: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+    
+    ---------
+    
+    Co-authored-by: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+
+[33mcommit b225563a238bfa93f9ac17a1a0269c8782a10d11[m
+Author: Agu Vaitkus <145935152+aguvai@users.noreply.github.com>
+Date:   Sun Aug 3 16:22:15 2025 -0400
+
+    Update paragraph structure (#29960)
+
+[33mcommit 0114b20bd6a5fe932197ac00ae67a8dc2279514a[m
+Author: Agu Vaitkus <145935152+aguvai@users.noreply.github.com>
+Date:   Sun Aug 3 14:52:09 2025 -0400
+
+    fix(docs): correct grammar ("Lets" -> "Let's") (#29953)
+    
+    "Let's say" is the correct form of "let us say" in the sentence:
+    "Let's say getData() is a function that fetches some data from a server
+    and returns it as an object that we can use in our code:"
+
+[33mcommit f76fb60aa8a05dfd44544e8b59a993cc24c5418e[m
+Author: Ryu Hiroyama <lyuhiroyama@gmail.com>
+Date:   Sun Aug 3 01:13:00 2025 +0900
+
+    Replace incorrect 'before_rollback' with 'after_rollback' in Active Record callbacks section (#29950)
+
+[33mcommit e8ed6ee15f819cdf3b5ee0b1ea79632b7652cf3e[m
+Author: Abhi <206946888+xerxes324@users.noreply.github.com>
+Date:   Wed Jul 30 21:58:18 2025 +0530
+
+    HashMap Data Structure : Fixing grammatical error in text (#29902)
+    
+    * Update hash_map_data_structure.md
+    
+    grammatical error
+    
+    * Update javascript/computer_science/hash_map_data_structure.md
+    
+    [ second commit ]
+    
+    Co-authored-by: Josh Smith <jmsmith1018@gmail.com>
+    
+    ---------
+    
+    Co-authored-by: Josh Smith <jmsmith1018@gmail.com>
+
+[33mcommit c758e4bf005301fce82c4f09fe903344b247de71[m
+Author: Monatric <nawpnawp8@gmail.com>
+Date:   Sun Jul 27 20:41:11 2025 +0800
+
+    Update knowledge check link
+
+[33mcommit 61d1e628219c509bab06951292ca2a7b7ae7bd2a[m
+Author: Monatric <nawpnawp8@gmail.com>
+Date:   Sun Jul 27 20:38:07 2025 +0800
+
+    Update the assignment reading range to include section 3.2
+
+[33mcommit 3b25650ac46c423d0ad07c1a642fab43af82ae97[m
+Author: Dane <nawpnawp8@gmail.com>
+Date:   Wed Jul 30 01:55:54 2025 +0800
+
+    Rails Turbo Drive: Add knowledge check section with 7 questions (#29862)
+    
+    * feat: add knowledge check section with a question
+    
+    * feat: add 2nd question in KC linked to span tag
+    
+    * feat: add 3rd question in KC linked to span tag
+    
+    * feat: add 4th question in KC
+    
+    * feat: add 5th question in KC linked to span tag
+    
+    * feat: add 6th question in KC
+    
+    * feat: add 7th question in KC
+    
+    * refactor: run lint auto fixer
+    
+    * refactor: use only ID as link for section headers
+
+[33mcommit dd6d5be74b8f9fc9d45821226ecbe3d443368418[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Tue Jul 29 17:24:50 2025 +0100
+
+    Move Formal Definition additional resource to main lesson contents
+
+[33mcommit 02f3cc169d0e325afb88d5b95859ed29e94e692c[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Tue Jul 29 17:18:38 2025 +0100
+
+    Use level 4 heading for note box
+
+[33mcommit 5fb75993c5277f3a4beb9d51e8e3035e177db8ed[m
+Author: Paula Maged <128493887+PaulaMaged@users.noreply.github.com>
+Date:   Tue Jul 29 14:15:22 2025 +0300
+
+    Fix spelling
+
+[33mcommit 6079d9b0cd769175108b5c5f76d019b217209c04[m
+Author: Goran Jović <goran1010jovic@gmail.com>
+Date:   Mon Jul 28 21:18:47 2025 +0200
+
+    HashMap: Change paragraph to ensure clarity on why we move modulo operator (#29909)
+    
+    * Change paragraph to ensure clarity on why we move modulo operator
+    
+    * Add module operator words to ensure clarity
+    
+    * Update javascript/computer_science/project_hash_map.md
+    
+    Co-authored-by: Josh Smith <jmsmith1018@gmail.com>
+    
+    * Update javascript/computer_science/project_hash_map.md
+    
+    Co-authored-by: Josh Smith <jmsmith1018@gmail.com>
+    
+    * Update javascript/computer_science/project_hash_map.md
+    
+    Co-authored-by: Josh Smith <jmsmith1018@gmail.com>
+    
+    * Update javascript/computer_science/project_hash_map.md
+    
+    Co-authored-by: Josh Smith <jmsmith1018@gmail.com>
+    
+    ---------
+    
+    Co-authored-by: Josh Smith <jmsmith1018@gmail.com>
+
+[33mcommit 82645e214e2929a642896f9e21d9838aafa6bca1[m
+Author: Dane <nawpnawp8@gmail.com>
+Date:   Tue Jul 29 02:35:33 2025 +0800
+
+    Update Rails guide assignment link (#29904)
+
+[33mcommit fdeb39ec88d1c49dfb7952588be12549cafdfae1[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jul 28 01:00:05 2025 +0100
+
+    Add comment explaining importance of  error handling
+
+[33mcommit 5650fa17280155f4015bcb7bbae817f90652fa0f[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jul 28 00:45:25 2025 +0100
+
+    Use appropriate inline code block
+
+[33mcommit 044cca2f63970b459c9d497caee4720503df37cb[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jul 28 00:44:04 2025 +0100
+
+    Add app.listen error handling to code examples
+
+[33mcommit 139e82f6825efe76c0232537e93aeef665f66002[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jul 28 00:41:13 2025 +0100
+
+    Add error param in app listen callback
+    
+    Required due to breaking change in Express v5 https://expressjs.com/en/guide/migrating-5.html#app.listen that auto-catches any errors before the callback
+
+[33mcommit 1159ae050d39e5d2b50bba376051e90c827360f4[m
+Author: cblin321 <126987173+cblin321@users.noreply.github.com>
+Date:   Sat Jul 26 00:45:38 2025 -0500
+
+    Fix typo in component_lifecycle_methods.md
+    
+    I noticed this sentence uses the wrong "its": "... it's dependency array, and if it returns anything." "Its" is possessive
+
+[33mcommit 0f2f716648db06567a2246290f3890598ad0a201[m
+Author: Rachel Moser <33227096+rlmoser99@users.noreply.github.com>
+Date:   Thu Jul 24 15:11:05 2025 -0500
+
+    Chore: Add issue template for broken link (#29922)
+
+[33mcommit 06eeb49901424e534c28cda33ced9068a350cf36[m
+Author: impka <63947702+impka@users.noreply.github.com>
+Date:   Thu Jul 24 11:17:48 2025 -0700
+
+    Update introduction_to_frameworks.md (#29900)
+    
+    The RubyGarage article linked in the assignment about tech stacks doesn't lead to a valid page.
+
+[33mcommit 22c0b24eb87c68e21a8f5bf8c5a725bb462ec406[m
+Author: Reece Lim <111989096+NotRelix@users.noreply.github.com>
+Date:   Fri Jul 25 02:09:26 2025 +0800
+
+    chore: fix link to not open in new tab (#29924)
+
+[33mcommit 97518fe54092bcc85022297d91cd9e85c105bcc2[m
+Author: MN <118464447+manelly67@users.noreply.github.com>
+Date:   Tue Jul 22 00:30:54 2025 -0500
+
+    Working With Remotes lesson: moved workflow diagram to the next lesson (#29906)
+    
+    * docs: moved workflow diagram to the next lesson
+    
+    The diagram makes more sense in the lesson Using Git in Real Life
+    
+    * docs:changed the title to a more human readable one
+
+[33mcommit 2c7a1a22e876be137354afc7f9854357e943dcb6[m
+Author: Eduardo <eduardopelaez@pm.me>
+Date:   Mon Jul 21 11:44:09 2025 -0700
+
+    NodeJS basic site project/Ruby basic data types lesson: Fix lint errors (#29910)
+    
+    * Use correct initial heading
+    
+    * Remove space inside link text
+    
+    * Use markdown headings instead of bold text
+    
+    * Remove unnecessary word from link text
+    
+    * Improve assignment clarity
+    
+    * Unnest additional resources
+    
+    * Convert paragraphs into descriptive text links list
+
+[33mcommit f00dca1ffbeaf688f8511d9f0ab15536798dd7b9[m
+Author: jwaddell10 <115955410+jwaddell10@users.noreply.github.com>
+Date:   Mon Jul 21 13:38:28 2025 -0500
+
+    Add Neetcode to preparing to interview resources (#29913)
+
+[33mcommit a712984667212e1f7d6fe11ea238f524bf1200c1[m
+Author: Dainis Dilevka <mozart_dd@outlook.com>
+Date:   Mon Jul 21 12:25:00 2025 +0100
+
+    JavaScript: clarify text for callbacks section link (#29124) (#29903)
+
+[33mcommit e8b62d35b0a8b46182dcb98e0e8f109920ee2e32[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jul 21 12:23:26 2025 +0100
+
+    Git Basics: Improve clarity of `cd git_test` command (#29905)
+    
+    * Improve clarity of `cd git_test` command
+    
+    * Fix formatting and grammar
+    
+    Paragraph is intended as part of step 7 so should be indented accordingly.
+    
+    * Fix grammar
+
+[33mcommit d1627eda4402d249cd2acd51898156cd631404f9[m
+Author: Rushil Jalal <rushiljalal@gmail.com>
+Date:   Sun Jul 20 10:40:09 2025 +0530
+
+    Removed heading
+
+[33mcommit dbcd713fd7f975bde4f33fddcc0b59e58a14739f[m
+Author: Rushil Jalal <rushiljalal@gmail.com>
+Date:   Sun Jul 20 10:29:59 2025 +0530
+
+    Update views.md
+
+[33mcommit c339e49fabdc261f45ef70a284b9b83a05cd5ae4[m
+Author: manellylopez <manellylopezqqq@gmail.com>
+Date:   Thu Jul 17 18:06:24 2025 -0500
+
+    added small note clarifying about the syntax to pass props into components
+
+[33mcommit 1f664b48b5ead796456da14bca195fb56cf3058e[m
+Author: Goran Jovic <goran1010jovic@gmail.com>
+Date:   Sat Jul 19 09:04:00 2025 +0200
+
+    Change knowledge question link to appropriate resource
+
+[33mcommit 6655e60d5c9faabc02d47f68ca5d6645b4d18563[m
+Author: Kezy <151378521+Kezy-d4@users.noreply.github.com>
+Date:   Fri Jul 18 14:47:32 2025 -0400
+
+    Ruby/CS/HashMap Data Structure: Reword a couple of paragraphs to clarify the expansion process (#29860)
+
+[33mcommit 80c39950d69a1c65cbf6a1a1f46dbefc752a6fdf[m
+Author: Zack Hoang <zackhoang2004@gmail.com>
+Date:   Fri Jul 18 11:29:00 2025 -0700
+
+    Foundations: move looking at others' solution from landing page project to recipe project (#29899)
+    
+    * Update second assignment watch instruction.
+    
+    * Shorten second assignment watch instruction
+    
+    Make second assignment watch instruction shorter as the first re-write was wordy.
+    
+    * Remove parentheses and capitalize T in second sentence.
+    
+    * Remove trailing space
+    
+    * Fix JS section accidental trailing space
+    
+    * fix: mention explicitly possible front-end options
+    
+    * fix: import bcryptjs and capitalize SQL keywords
+    
+    fix as titled. Additionally, remove a new line from the initial sign-up route code.
+    
+    * fix: move looking at solutions warning's location
+    
+    move this warning from the landing page project to the recipes project. Additionally, fix a capitalization typo on the 4th bullet point of that section
+
+[33mcommit 9951ff38bc87142e0b408519f5d34b721ccb293d[m
+Author: Eduardo <eduardopelaez@pm.me>
+Date:   Fri Jul 18 01:40:43 2025 -0700
+
+    Foundations calculator project: Replace student project, expand description (#29897)
+    
+    * Replace student project with link to online calculator
+    
+    * Replace paragraph explanation with ordered list of steps to improve legibility
+    
+    * Remove undescriptive word from link text
+    
+    * Update link to example calculator
+
+[33mcommit 84799159b9b225d81e21f9ea8c9af903ab3ab8f9[m
+Author: Eduardo <eduardopelaez@pm.me>
+Date:   Fri Jul 18 01:20:52 2025 -0700
+
+    All lessons: Remove/replace Replit suggestions (#29180)
+    
+    * Suggest the use of Codepen instead of Replit
+    
+    * Remove Replit suggestion for creating a live demo
+    
+    * Replace Replit suggestions with generic REPL suggestions
+    
+    * Remove suggestions to use Replit
+    
+    * Use inline code for HTML filenames
+    
+    * Automatically fix linting issues
+    
+    * Automatically fix linting issue
+    
+    * Make more general suggestion for repl
+    
+    * Clarify that appropriate repl should be used
+    
+    * Move link explaining repl to earlier lesson
+
+[33mcommit 6ebffe16cedbd577e6dc58f355fbea61decda4f2[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Thu Jul 17 21:24:44 2025 +0100
+
+    Markdownlint: New custom heading indent rule (#29889)
+    
+    * Add custom heading indent rule to markdownlint config
+    
+    * Add custom rule test examples
+    
+    * Write custom rule doc page
+    
+    * Write custom rule
+    
+    * Add regex test link
+
+[33mcommit ac02867c5c087bb70544b4b60e4fa15f75aa9350[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Thu Jul 17 21:09:56 2025 +0100
+
+    Change TOP001 rule name (#29890)
+    
+    Recent built-in MD059 shares name and breaks markdownlint VSC extension
+
+[33mcommit 828c53c8a6db0a4147455d57f3ebabdad5792234[m
+Author: Robert (Bobby) DeLucia <72625310+bdelucia@users.noreply.github.com>
+Date:   Thu Jul 17 16:09:19 2025 -0400
+
+    Update applying.md (#29888)
+    
+    changed excel to Excel, signifying that it is Microsoft's Excel program and not the verb
+
+[33mcommit 4ba4729f110a181bb000c13dd6ab812c17655984[m
+Author: Zack Hoang <zackhoang2004@gmail.com>
+Date:   Thu Jul 17 08:42:52 2025 -0700
+
+    Authentication Basics: import bcryptjs and capitalize SQL keywords in auth basic lesson (#29887)
+    
+    * Update second assignment watch instruction.
+    
+    * Shorten second assignment watch instruction
+    
+    Make second assignment watch instruction shorter as the first re-write was wordy.
+    
+    * Remove parentheses and capitalize T in second sentence.
+    
+    * Remove trailing space
+    
+    * Fix JS section accidental trailing space
+    
+    * fix: mention explicitly possible front-end options
+    
+    * fix: import bcryptjs and capitalize SQL keywords
+    
+    fix as titled. Additionally, remove a new line from the initial sign-up route code.
+
+[33mcommit 8bb42abe753ac24ac84258b2d30cf763442f9654[m
+Author: Punith1117 <punith11172006@gmail.com>
+Date:   Thu Jul 17 19:44:57 2025 +0530
+
+    add note that asks to use React version < 19 for type checking (#29714)
+    
+    * add note that asks to use React version < 19 for type checking
+    
+    defaultProps and PropTypes are deprecated from React version 19.
+    This note asks the readers to use React version lesser than 19 to make the type checking with PropTypes and defaultProps compatible.
+    The note also states the changes to be made in package.json file to install React version < 19.
+    
+    * fix: resolve linting errors
+    
+    * refactor: simplify note on react version
+    
+    Make the note more clear and concise and move note under 'Getting started' section instead of giving its own section
+    
+    * fix: resolve linting errors occurred when refactoring note on React version
+
+[33mcommit 8e6043bc3696c9f5649f63b7fe68807f57433944[m
+Author: Eduardo <eduardopelaez@pm.me>
+Date:   Thu Jul 17 07:07:55 2025 -0700
+
+    Rails Deployment lesson: Update Railway info, reorder services (#29829)
+    
+    * Reorder services by guesstimated cost of free tiers
+    
+    * Update description for Railway free trial
+
+[33mcommit effd19025e318eafc90ae6106593c70e4b4610fb[m
+Author: M Ulmer <mjulmer@users.noreply.github.com>
+Date:   Thu Jul 17 07:05:58 2025 -0700
+
+    React Router lesson: Fix link to useOutletContext documentation (#29825)
+    
+    The currently live link (https://api.reactrouter.com/v7/functions/react_router.useOutletContext.html) goes to the reference documentation page, which doesn't include or link to helpful information for learners. Unfortunately, the latest (7.3.6) and dev documentation versions *also* have bare-bones documention that only gives the hook signature (e.g. https://reactrouter.com/api/hooks/useOutletContext). However, the 6.30.1 docs provide useful examples, and I suspect this was the documentation the lesson originally intended to link to.
+    
+    I suspect that as the React Router docs get updated, this link will need to change again, but for now, if the lesson contains a link to official React Router documentation for this hook, this should be the page it links to.
+
+[33mcommit 8e9f3cdbf2ce7f2283ff22632f39f92f3a5e7f08[m
+Author: Ricardo N. <138608018+ric-projects@users.noreply.github.com>
+Date:   Thu Jul 17 07:04:53 2025 -0700
+
+    Fixing a hyperlink that could send users to Windows instructions (#29836)
+
+[33mcommit 489fa0b705238dd995e45df37beb6f8a77f90003[m
+Author: skools-here <sajalkulshreshtha9@gmail.com>
+Date:   Thu Jul 17 18:20:21 2025 +0530
+
+    Fix: removed broken link in async lesson (#29886)
+
+[33mcommit 8824fcdf763178dcb14af17b89355189788deb58[m
+Author: Ryu Hiroyama <lyuhiroyama@gmail.com>
+Date:   Thu Jul 17 16:30:45 2025 +0900
+
+    Remove unexplained having mention from Aggregations section (#29880)
+
+[33mcommit c79e47031cabe0fdc0026d482a35075016564832[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Thu Jul 17 08:29:10 2025 +0100
+
+    Markdownlint: Document script-fixable rules (#29881)
+    
+    * Add list of script-fixable markdownlint rules
+    
+    * Add `Fixable` instructions to each custom rules' docs
+
+[33mcommit 924bc842eb8acab4f78704b6dd85e67180eaf0f7[m
+Merge: 670e1a0c5 2f8b78876
+Author: Alex Younger <61510135+fortypercenttitanium@users.noreply.github.com>
+Date:   Wed Jul 16 11:06:15 2025 -0400
+
+    Merge pull request #29869 from xerxes324/patch-2
+    
+    Form Validation with JavaScript : Clarifying Live Inline Validation Behavior in Form Requirements
+
+[33mcommit 670e1a0c565131624e9db86b84ad4991f0178fc3[m
+Author: Muhammad Salman <muhammadsalman7236@gmail.com>
+Date:   Wed Jul 16 16:32:09 2025 +0500
+
+    Installing Node.js: update nvm version (#29873)
+    
+    Update nvm (Node Version Manager) to version 0.40.1 ensuring users are using the latest stable version.
+
+[33mcommit 62de6e6b0c56b2d2ec35e4f34aa41da1f576556e[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Wed Jul 16 12:29:43 2025 +0100
+
+    Add heading to submissions note box (#29875)
+
+[33mcommit 455db215cf59584cde12f328e36384c75c87aabe[m
+Author: Goran Jović <goran1010jovic@gmail.com>
+Date:   Wed Jul 16 13:28:49 2025 +0200
+
+    Add homepage link (#29876)
+
+[33mcommit 00012168477a4e50040d2645f9bdc7ccc93dbe07[m
+Author: LFB3 <151401002+LFB3@users.noreply.github.com>
+Date:   Wed Jul 16 13:28:28 2025 +0200
+
+    / instead of : correction (#29877)
+    
+    Someone used a ":" instead of a "/" but git outputs a "/"
+
+[33mcommit eecb30b5802b169662b0871baabf865de071e929[m
+Author: Ignatius_Reilly <dmitriy_xix@hotmail.com>
+Date:   Tue Jul 15 12:23:01 2025 -0400
+
+    Added 2 very short notes in intro-to-css about no leading digits (#29863)
+    
+    * re: #29840 in CSS section (foundations), added mentions about not starting selector names with digits.
+    
+    * Update foundations/html_css/css-foundations/intro-to-css.md
+    
+    missed back ticks (thanks @MaoShizhong
+    
+    Co-authored-by: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+    
+    * moved these notes to boxes following the paragraphs as asked.
+    
+    * moved notes to boxes after paragraphs as asked.
+    
+    * punctuation
+    
+    * Update foundations/html_css/css-foundations/intro-to-css.md
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+    
+    * Update foundations/html_css/css-foundations/intro-to-css.md
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+    
+    * fixed boxes
+    
+    * Update foundations/html_css/css-foundations/intro-to-css.md
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+    
+    ---------
+    
+    Co-authored-by: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+
+[33mcommit c33618cbe4d8909741ac8013cd90c27f7a4ad5bf[m
+Author: Goran Jović <goran1010jovic@gmail.com>
+Date:   Sun Jul 13 08:38:57 2025 +0200
+
+    Add HTML tag explanation and a question about void elements (#29858)
+
+[33mcommit 2f8b78876f6c9d7461ff00ccd5728ac3db4cbd85[m
+Author: Abhi <206946888+xerxes324@users.noreply.github.com>
+Date:   Sun Jul 13 00:48:58 2025 +0530
+
+    Update form_validation_with_javascript.md
+    
+    Modifying a project requirement for clarity.
+
+[33mcommit 35ae5e39a6e6532c1facd99b70ca9094063c9622[m
+Author: Soham Powar <173037437+Soham-Powar@users.noreply.github.com>
+Date:   Fri Jul 11 08:04:13 2025 +0530
+
+    Project Knight Travails: add helpful BFS concepts to Knight’s Travails lesson (#29827)
+    
+    * docs: add helpful BFS concepts to Knight’s Travails lesson
+    
+    Added a "Helpful Concepts Before You Begin" section to bridge the gap between tree-based and grid-based BFS.
+    This provides learners with guidance on representing positions, using a queue, and tracking visited nodes.
+
+[33mcommit 5a0a0335cd6e8b336b3df7825a7192129ec93f4c[m
+Author: Reece Lim <111989096+NotRelix@users.noreply.github.com>
+Date:   Thu Jul 10 22:27:56 2025 -0400
+
+    chore: resolve awkward grammar in react mocking and callbacks (#29861)
+
+[33mcommit e45b1c824b487ec0e3b2175fd1e49b710cca9d55[m
+Author: Hillgrove <github@hillgrove.dk>
+Date:   Fri Jul 11 04:21:20 2025 +0200
+
+    Text Editors - Foundation: add link to VSCode shortcuts for windows (#29851)
+    
+    * add link to VSCode shortcuts for windows
+
+[33mcommit 093fa0d1a077e2868fe6a337bd74c29ffcf82c3d[m
+Author: Ivan R. Salcedo <nj.ivan.salcedo@gmail.com>
+Date:   Thu Jul 10 22:19:53 2025 -0400
+
+    Loops and Arrays lesson: Clarify folder and file instructions for Wes Bos Array Cardio lessons (#29842)
+    
+    * Clarify folder and file instructions for Wes Bos Array Cardio lessons
+
+[33mcommit b49c08b0e3851dbae4755e429ceef98e44af2850[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Wed Jul 9 18:15:42 2025 +0100
+
+    Rename traversal methods (#29850)
+    
+    Clearer connection to behaviour and purpose of Array.prototype.forEach
+
+[33mcommit 55c5ba6ab70382b417f5cf94daa34f6b91213056[m
+Author: Yousif Eltayeb <iikxt@yahoo.com>
+Date:   Wed Jul 9 05:14:41 2025 +0300
+
+    Basic Informational Site: Remove a sentence that references W3 tutorial which was removed (#29855)
+    
+    * Remove sentence that references a removed link
+
+[33mcommit 24efd4381f9d3b55ececcaf480a8413c92481dc4[m
+Author: Adarsh Gupta <111111623+adarshdotdev@users.noreply.github.com>
+Date:   Wed Jul 9 07:38:19 2025 +0530
+
+    fix: Clarify that each CSS rule consists of a selector and declarations (#29839)
+
+[33mcommit eded356ba2a87d758cf3bb6707058764f34be4a2[m
+Author: Mark Narciso <125713293+Khaspper@users.noreply.github.com>
+Date:   Tue Jul 8 16:43:30 2025 -0700
+
+    Update async_and_await.md (#29743)
+    
+    * Update async_and_await.md
+    
+    The update clarifies that we can use await top-level when we are using module scripts
+    
+    * Update javascript/asynchronous_javascript_and_apis/async_and_await.md
+    
+    Co-authored-by: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+    
+    ---------
+    
+    Co-authored-by: Fred Love <justwavethings@pm.me>
+    Co-authored-by: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+
+[33mcommit 164895db9aaf88642f0a17d683fd29e30f1ebfc1[m
+Merge: 2c2fb1d14 deff90975
+Author: Carlos Diaz <bycdiaz@icloud.com>
+Date:   Tue Jul 8 10:05:27 2025 -0700
+
+    Merge pull request #29856 from TheOdinProject/bycdiaz-patch-1
+    
+    Getting Hired course: networking lesson. Update professional_networking.md
+
+[33mcommit 2c2fb1d14ee8fe6be654db6ce60dc2b80f732238[m
+Author: Goran Jović <goran1010jovic@gmail.com>
+Date:   Tue Jul 8 18:55:26 2025 +0200
+
+    Remove link from additional resources (#29854)
+
+[33mcommit deff90975bbb4611e9c642df448e9eadd8182e67[m
+Author: Carlos Diaz <bycdiaz@icloud.com>
+Date:   Tue Jul 8 09:41:08 2025 -0700
+
+    Update professional_networking.md
+
+[33mcommit e450b9d24f40afef28d1b810c882476cc9114c84[m
+Author: Carlos Diaz <bycdiaz@icloud.com>
+Date:   Tue Jul 8 09:35:50 2025 -0700
+
+    Update professional_networking.md
+    
+    GIven we are no longer driving traffic to that site on our server, this reference can also be removed.
+
+[33mcommit a79b504ff39f3d1bae4e26312891939a5e0fda58[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Tue Jul 8 02:38:25 2025 +0100
+
+    Add note about .env content spacing (#29845)
+
+[33mcommit 7938eec80ba67ec839bcd2095fa44b6157d36302[m
+Author: Kezy <151378521+Kezy-d4@users.noreply.github.com>
+Date:   Mon Jul 7 21:36:58 2025 -0400
+
+    Ruby/CS/HashMap Data Structure: Fix a minor grammatical error (#29844)
+
+[33mcommit bef87007420ed1dfe6963f7b784415dece49a9ac[m
+Author: Jay <140599484+mathdebate09@users.noreply.github.com>
+Date:   Sun Jul 6 01:27:26 2025 +0530
+
+    Ruby: Additional resource for extra ruby methods (#29831)
+    
+    * Ruby: Additional resource for extra ruby methods
+
+[33mcommit ef6e298d69175d64aa4a3af36d177947034906c2[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Sat Jul 5 20:55:07 2025 +0100
+
+    Revert "Ignore URIs and emails with codespell action (#29830)" (#29834)
+    
+    This reverts commit 236e0dca209413d0faf93e8b6e44f73e23b9c989.
+
+[33mcommit a91846e88a376170512568005e8957a431f28feb[m
+Author: Dane <nawpnawp8@gmail.com>
+Date:   Sun Jul 6 02:55:59 2025 +0800
+
+    Update HTTP auth resource in Rails assignment (#29832)
+
+[33mcommit 236e0dca209413d0faf93e8b6e44f73e23b9c989[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Sat Jul 5 19:32:20 2025 +0100
+
+    Ignore URIs and emails with codespell action (#29830)
+
+[33mcommit ff5c4c07051a2972e325289e82635719b1dd2ec5[m
+Author: Nikolaos Emmanouilidis <121699424+NikEmman@users.noreply.github.com>
+Date:   Thu Jul 3 19:56:52 2025 +0300
+
+    Replace flickr with pexels (#29577)
+    
+    * Replace project flickr api with project pexel api
+    
+    The old project_flickr_api.md will be moved to archive/ruby_on_rails/ folder
+    
+    Replace project flickr api with project pexel api
+    
+    Move the old lesson file to archive
+    
+    * Fix md lint issues
+    
+    * Update intro text and paragraph 4
+    
+    * Fix linting issues
+
+[33mcommit 1a97da2f95ee3525130223f7c3eae25cbcc37be1[m
+Author: Goran Jović <goran1010jovic@gmail.com>
+Date:   Thu Jul 3 14:59:28 2025 +0200
+
+    Remove outdated and unnecessary link from assignement (#29826)
+
+[33mcommit 2aae4824c91e38499bd5502cd95577c28145d1a1[m
+Author: Josh Smith <jmsmith1018@gmail.com>
+Date:   Wed Jul 2 10:35:32 2025 -0600
+
+    Ruby Blocks Lesson: Make explanation of `proc` return behavior more accurate (#29822)
+    
+    * Make explanation of `proc` return behavior more accurate
+    
+    * Update lesson overview bullet points to pass mdlint
+    
+    * Update blank lines around HTML tags to pass mdlint
+
+[33mcommit 0c62aee4e24878db7ad9af4d09af6cd53b5c1541[m
+Author: still-seeker <151577316+still-seeker@users.noreply.github.com>
+Date:   Mon Jun 30 09:34:46 2025 +0300
+
+    fix: remove broken link (#29813)
+
+[33mcommit 53c8f7c2f7a26160b1da5c257b3e0a06c3a92ebe[m
+Author: GhidBase <grvdylans@gmail.com>
+Date:   Mon Jun 30 00:32:53 2025 -0600
+
+    Project: Recipes: correct grammar (#29816)
+    
+    * fix: correct grammar in project-recipes.md
+    
+    Changed this
+    keep in mind that this project is just to build your HTML chops;
+    to this
+    keep in mind that the purpose of this project is just to build your HTML chops;
+    
+    * Project: Recipes: Capitalize HTML
+
+[33mcommit 29a77684db08f6ef65c75c30236c83a93636d1a7[m
+Author: Dane <nawpnawp8@gmail.com>
+Date:   Sun Jun 29 03:02:46 2025 +0800
+
+    Fix broken knowledge check links in form basics (#29812)
+
+[33mcommit f9d2593f3d7409d060281fe56cc5cc254d2802d4[m
+Author: Goran Jović <goran1010jovic@gmail.com>
+Date:   Fri Jun 27 18:52:56 2025 +0200
+
+    Links and Images: Fix missing brackets (#29794)
+    
+    * Fix missing backticks
+    
+    * Change inline backticks into multiline code backticks
+    
+    * Fix missing blank lines around backtics
+    
+    * Fix another missing blank line
+    
+    * Remove extra inline backticks
+
+[33mcommit 53e955a6e664c8dbd377f5a5ae70823d103f8d71[m
+Author: Zack Hoang <zackhoang2004@gmail.com>
+Date:   Fri Jun 27 22:12:34 2025 +0700
+
+    Blog API Project: front-end options fix (#29810)
+    
+    * Update second assignment watch instruction.
+    
+    * Shorten second assignment watch instruction
+    
+    Make second assignment watch instruction shorter as the first re-write was wordy.
+    
+    * Remove parentheses and capitalize T in second sentence.
+    
+    * Remove trailing space
+    
+    * Fix JS section accidental trailing space
+    
+    * fix: mention explicitly possible front-end options
+
+[33mcommit 71922e9206290174f44607924b2b30aa292f69f5[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Fri Jun 27 15:06:12 2025 +0100
+
+    Node Controllers: Remove express-async-handler content (#29747)
+    
+    * Remove express-async-handler content
+    
+    Now an Express v5 built-in feature: https://expressjs.com/en/guide/migrating-5.html#rejected-promises
+    
+    * Add space after ellipses
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+    
+    * Improve heading descriptiveness
+    
+    ---------
+    
+    Co-authored-by: Manon <81025586+ManonLef@users.noreply.github.com>
+
+[33mcommit 063308837bbe7175d22c0aedc0902f9a9f1bb203[m
+Merge: 6833c1947 61e4c66d1
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 18:20:40 2025 -0400
+
+    Merge pull request #29772 from I3uckwheat/patch-2
+    
+    variables and operators lesson: clarify where code is run
+
+[33mcommit 6833c194762ef4caff74ef5c56ecf090b8d21601[m
+Merge: 661ce0e13 1fcfd54bd
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 18:19:54 2025 -0400
+
+    Merge pull request #29771 from ric-projects/main
+    
+    JavaScript - Webpack lesson: Adds filenames to code snippets that were missing
+
+[33mcommit 661ce0e1357c54f732de752520ac4239468d3bba[m
+Merge: 33305e124 c3feb0fcf
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 18:19:03 2025 -0400
+
+    Merge pull request #29770 from MaoShizhong/esm-warning
+    
+    ESM: Clarify wording around necessary lesson sections
+
+[33mcommit 33305e124be98b9ec842ffede9054cb7fcc604f8[m
+Merge: e5b886dfd e0f0d7ff2
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 17:29:59 2025 -0400
+
+    Merge pull request #29809 from Monatric/fix_section_number
+    
+    Rails Form Basics: Update assignment typo
+
+[33mcommit e5b886dfd63faf3dd225c2a8575d78d2c6aa0481[m
+Merge: d4c34fd6f 3bde0f3d8
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 17:28:50 2025 -0400
+
+    Merge pull request #29807 from goran1010/fix_missing_comma
+    
+    Creating a Grid: Add missing comma
+
+[33mcommit d4c34fd6f426b3e60bbb41ee5bfe3546b0efd54a[m
+Merge: 88a3646ac ddcda83ac
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 17:14:08 2025 -0400
+
+    Merge pull request #29801 from still-seeker/rails_forms_typo_fix
+    
+    Project forms - Ruby on Rails course: typo fix
+
+[33mcommit 88a3646ac333f3da777a1b690a4ff5b4e160ae72[m
+Merge: ad62e43b5 5a02f7c15
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 17:13:30 2025 -0400
+
+    Merge pull request #29792 from MaoShizhong/react-testing-eslint-config
+    
+    React Testing: Update name of ESLint config file
+
+[33mcommit ad62e43b5470d23737bea594d4000514bb583262[m
+Merge: 7e94496f5 a45aaaca6
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 17:06:22 2025 -0400
+
+    Merge pull request #29781 from Kezy-d4/patch-9
+    
+    Ruby, Time Complexity: Fix a formatting error
+
+[33mcommit 7e94496f5aa816c0214d2b5a9553df971e9576a4[m
+Merge: 9dacd3bb1 1f2ccbc01
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 17:05:34 2025 -0400
+
+    Merge pull request #29780 from MaoShizhong/eslint-airbnb
+    
+    JS Linting: Remove eslint-config-airbnb-base content
+
+[33mcommit 9dacd3bb1ebdde1f6417d317da13b903d11a6936[m
+Merge: 23408ab34 a81de2bd6
+Author: Austin Sullivan <wise.king.sullyman@gmail.com>
+Date:   Thu Jun 26 16:59:30 2025 -0400
+
+    Merge pull request #29779 from Anand-1812/fix-tone-and-clarity-htmlfoundation.md
+    
+    HTML Boilerplate lesson: Improve tone and clarity in Live Preview section
+
+[33mcommit e0f0d7ff28c85cfd8f07323fc8cb458f16d506f7[m
+Author: Monatric <nawpnawp8@gmail.com>
+Date:   Fri Jun 27 03:13:43 2025 +0800
+
+    Update Rails form basics assignment
+
+[33mcommit 3bde0f3d8f179106cb2f6aea8ad2206647ca64d6[m
+Author: Goran Jovic <goran1010jovic@gmail.com>
+Date:   Thu Jun 26 13:41:02 2025 +0200
+
+    Add missing comma
+
+[33mcommit ddcda83ac7ee5de99af537df123102867d235898[m
+Merge: 0012eee50 23408ab34
+Author: Still-Seeker <151577316+still-seeker@users.noreply.github.com>
+Date:   Tue Jun 24 22:46:41 2025 +0300
+
+    Merge branch 'main' into rails_forms_typo_fix
+
+[33mcommit 0012eee5008115a4c2ca0ba5e4452d19a1d8318c[m
+Author: Still-Seeker <151577316+still-seeker@users.noreply.github.com>
+Date:   Tue Jun 24 22:40:12 2025 +0300
+
+    fix: typo - form formerly mistyped as from
+
+[33mcommit 23408ab34b4f0aa84e1f5b381c1cf70d68366064[m
+Author: Dane <nawpnawp8@gmail.com>
+Date:   Wed Jun 25 01:36:10 2025 +0800
+
+    Update knowledge check link in Rails Basic Validations (#29784)
+
+[33mcommit 5fccab323e5495e6646e8e27a61a8612cf5d1be4[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Tue Jun 24 18:28:36 2025 +0100
+
+    Fix TOP009 lint rule violation (#29797)
+
+[33mcommit 5a02f7c155d0c34d4fda496eb2e02f13fe12a8c9[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Sun Jun 22 18:24:41 2025 +0100
+
+    Rename ESLint config file in note box
+    
+    Vite React template comes with ESLint v9 now which only supports flat config.
+
+[33mcommit 15e28e22f11f196812620756bae88f9a82aa7e7b[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Fri Jun 20 11:41:35 2025 +0100
+
+    Remove "arguments" object additional resource (#29788)
+    
+    Was meant to be removed in
+    https://github.com/TheOdinProject/curriculum/commit/4a6b7b4bf9b5ed5a885477b28e3d820d8c55b500
+    but accidentally added back when resolving a merge conflict
+
+[33mcommit a45aaaca6cb58c97a05f646c4c533faa930b889b[m
+Author: Kezy <151378521+Kezy-d4@users.noreply.github.com>
+Date:   Mon Jun 16 15:40:39 2025 -0400
+
+    Ruby, Time Complexity: Fix a formatting error
+
+[33mcommit 1f2ccbc0182ffbb6443dd27139ececdd911f2a7d[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jun 16 18:52:58 2025 +0100
+
+    Emphasise ESLint has a good default rule set
+    
+    Since this mention gets removed with the ESLint+Prettier section that's also getting removed
+
+[33mcommit 41fd91b0ae314b7e5c7f8d77a9a5f5de19d3fb22[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jun 16 18:50:15 2025 +0100
+
+    Rephrase style guides text
+    
+    Emphasis on "here are some examples" as opposed to "read these cover to
+    cover like articles", which seems to be a common misunderstanding in the
+    community.
+
+[33mcommit 36a97b533862fae1d17e0c6827804537f1bf1d14[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon Jun 16 18:43:01 2025 +0100
+
+    Remove content related to eslint-config-airbnb-base
+
+[33mcommit a81de2bd6352e2d0519c92e1ddf19d2254fd089b[m
+Author: Anand-1812 <anand.work2005@gmail.com>
+Date:   Mon Jun 16 17:50:10 2025 +0530
+
+    Fix the tone in using vscode live extension section
+
+[33mcommit 61e4c66d13793c660fe94ffc2c4002c68711d9d6[m
+Author: Briggs Elsperger <briggse@protonmail.com>
+Date:   Mon Jun 9 22:06:28 2025 -0600
+
+    Update variables_and_operators.md
+
+[33mcommit 1fcfd54bdb6863b3e4a85bec159b724d728abed2[m
+Author: Ricardo <138608018+ric-projects@users.noreply.github.com>
+Date:   Mon Jun 9 19:46:41 2025 -0700
+
+    Adds filenames to code snippets that were missing
+
+[33mcommit c3feb0fcfc00fa40fef00399a39f6f6d48c4d87f[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Tue Jun 10 01:57:57 2025 +0100
+
+    Add missing word
+
+[33mcommit 455b3bcbc6811497c6ad01f0f26e8e2ca76b6925[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Tue Jun 10 01:52:04 2025 +0100
+
+    Clarify section order intent
+
+[33mcommit 80ba67975fddb2a9b02ccd35ad98a1afb85cdd76[m
+Author: Isabella Hansmann <136174454+bellitabellota@users.noreply.github.com>
+Date:   Sun Jun 8 14:35:34 2025 +0100
+
+    Rails path - React course - Lesson 'Using Ruby On Rails For Your Backend': Restructuring of lesson content to shift focus on key topics (#29746)
+    
+    * Update lesson to provide more structure and shift focus on key topics
+    
+    * Apply suggestions from code review
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+    
+    * Correct wording of updated content
+    
+    * Removing obsolete articles and corresponding 'Knowledge check' questions
+    
+    ---------
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+
+[33mcommit f78e9412c93a365ac5ce2de07735bbd437fc8f26[m
+Author: JoelM <82403870+joelmast@users.noreply.github.com>
+Date:   Sun Jun 8 09:32:31 2025 -0400
+
+    Common Data Structures and Algorithms lesson: Replace binary search video (#29760)
+    
+    * Change JS link
+    
+    * Change Ruby link
+
+[33mcommit 83bfa32d6a67dea127935c77713082e5f89c5927[m
+Author: zakingslayerv22 <11926638+zakingslayerv22@users.noreply.github.com>
+Date:   Sun Jun 8 09:30:59 2025 -0400
+
+    Update transforms.md (#29769)
+    
+    Almost all elements can have the `transform` property applied to them seems more grammatically correct.
+    
+    Also the note about the replaced elements seem confusing without a little explanation.
+
+[33mcommit e62ee2bcfc84cd886ca4554a4b653944fb953bf6[m
+Author: Ricardo N. <138608018+ric-projects@users.noreply.github.com>
+Date:   Sun Jun 8 06:29:48 2025 -0700
+
+    Add filenames as comments, filename highlighting on line 76 (#29768)
+
+[33mcommit 01de1be45f72fde8f0c670a5ee00c844ebeb3aae[m
+Author: Dane <nawpnawp8@gmail.com>
+Date:   Fri Jun 6 17:27:08 2025 +0800
+
+    Relocate Sandi Metz video to assignment section (#29765)
+
+[33mcommit 7a402478d9443c07973276d0dd670e20477b51ea[m
+Author: Simmon Li <hello@crespire.dev>
+Date:   Mon Jun 2 01:15:16 2025 -0400
+
+    Rails/Node: Installing PostgreSQL on MacOS using Postgres.app (#29169)
+    
+    * Update macOS instructions to use Postgres.app
+    
+    * Add instructions to check that path is updated
+    
+    * Close details tag
+    
+    * Replicate changes to nodeJS lesson
+    
+    * Add additional text to exit psql tool
+    
+    * Linter fix
+    
+    * Update copy to use warning box and add note about latest version
+    
+    * Linter fix
+    
+    * Linter fix 2.0
+    
+    * Linter fix 3.0
+    
+    * Write better copy for when we should update path
+    
+    * Update title to match Rails path
+
+[33mcommit ce682a7f0d20087e35e24304b734bae64ea20e94[m
+Author: titikshit <138710639+titikshit@users.noreply.github.com>
+Date:   Sat May 31 13:26:10 2025 +0530
+
+    Fix: Add missing role_name and role_password in PostgreSQL lesson (#29755)
+    
+    * Fix: Add missing role_name and role_password in PostgreSQL lesson
+    
+    * Update nodeJS/express/using_postgresql.md
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+    
+    ---------
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+
+[33mcommit 7b88c60811b7fcb7e8998a994a939a19e6452b92[m
+Author: Mayada <115709272+Maddily@users.noreply.github.com>
+Date:   Fri May 30 16:58:15 2025 +0300
+
+    Class Based Components: Improve code and grammar (#29217)
+    
+    * Rename "todo" to "prevTodos" for clarity in state update
+    
+    * Improve input-label connection
+    
+    The label element has a `htmlFor` attribute set to "task-entry", but the input element doesn't have an `id` attribute. I have given the input an id that matches the value in the `htmlFor` attribute of the label.
+    
+    * Fix grammar in comments and explanation
+    
+    * Revise Count component description in assignment section
+    
+    * Change To-Dos to Todos in comments
+    
+    This is to stay consistent with the naming used in the code and text in the lesson.
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+    
+    ---------
+    
+    Co-authored-by: Kevin <kevinmulhern23@gmail.com>
+
+[33mcommit 76a036adbf4d3a9587e19233478758b62f8b63c4[m
+Author: Rishav Diyali <64510900+G-O-T-W@users.noreply.github.com>
+Date:   Thu May 29 14:18:46 2025 +0530
+
+    Update demo calculator link to working version (#29748)
+
+[33mcommit b4dfe9197140788edd6476487c51801118f5948c[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Tue May 27 12:30:12 2025 +0100
+
+    Express Routes: Migrate to v5 pathing (breaking changes) (#29592)
+    
+    * Amend path patterns example
+    
+    Some characters no longer compatible with v5
+    
+    * Add note box on assignment and v5 compatibility
+    
+    * Add splat example
+    
+    v5 splat usage differs from v4's
+    
+    * Remove redundant div ID
+    
+    * Removed missed mention of old * syntax
+
+[33mcommit 65af25553f27fee4367b9d0fa4f3b2052ee7ef9f[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon May 26 22:12:17 2025 +0100
+
+    Reintroduce `npm init -y` command and `"type"` field removal (#29561)
+    
+    "type" field relevant due to npm v11 and will cause module resolution
+    clashes with webpack due to mixing the CJS config file and ESM project
+    source code.
+    
+    Without `npm init -y`, people often accidentally created a
+    `package.json` in a parent dir which would cause npm to install there
+    instead of the real project dir.
+
+[33mcommit 17246474ada4c9dda5ab3f0166490f9038fdd467[m
+Author: Mayada <115709272+Maddily@users.noreply.github.com>
+Date:   Mon May 26 20:00:50 2025 +0300
+
+    Databases and SQL: Fix grammar and clarify SQL concepts (#29611)
+    
+    * Fix minor grammar issues
+    
+    * Fix incorrect reference to 'whole database'
+    
+    The sentence, "If you just do an action on a table without specifying conditions, it will apply to the whole database and you’ll probably break something" mentions that the action is on a table. Hence, it would affect the table, not the whole database.
+    
+    * Clarify INSERT syntax with and without columns
+    
+    * Clarify when * can be used in aggregate functions
+    
+    * Correct the reference to HAVING
+    
+    It's incorrectly referred to as a function, but `HAVING` is a clause.
+    
+    * Surround fenced code blocks with blank lines
+    
+    * Undo lowercasing of E.g. to e.g.
+    
+    * Change reference to HAVING in knowledge check section
+    
+    HAVING is a clause, not a function.
+    
+    * Unuse semicolon and make two sentences
+    
+    * Use inline code formatting for table and column names
+    
+    * Clarify INSERT INTO usage
+    
+    Revised explanation to mention that omitting column names is possible but discouraged, without showing an example.
+    
+    * Update the id of HAVING function section
+    
+    The reference to `HAVING` was recently updated from "function" to "clause" and the id needed updating as well as the knowledge check link.
+
+[33mcommit 411e3baae818fb444ce93ad43121cf4e26587547[m
+Author: MaoShizhong <122839503+MaoShizhong@users.noreply.github.com>
+Date:   Mon May 26 14:32:28 2025 +0100
+
+    What is ES6?: Generalise wording and meet style guide (#29742)
+    
+    * Run lint autofix
+    
+    * Add style guide-required lesson sections
+    
+    * Rewrite main content with more generalised language
+    
+    Makes lesson date-agnostic - no need to update every few years when certain sentences become outdated
+    
+    Babel usage instructions removed. No real need to use Babel in TOP
+    projects' scope and just causes configuration complexity and confusion
+    in the community. Awareness is sufficient.
+    
+    * Move ES external links to assignment
+    
+    Outdated article showing only ES2015-2017 replaced with wikipedia full version history - time-agnostic for lesson.
+    
+    * Add knowledge check questions
+    
+    * Improve wording flow
+
+[33mcommit 4c1aec98d00a61c6722c7d4c4659b360fb73168d[m
+Author: X_AJ_X <88792057+XAJX179@users.noreply.github.com>
+Date:   Mon May 26 02:37:06 2025 +0530
+
+    Project: Recipe : Add note about image usage and licensing (#28565)
+    
+    * Add note about image usage and licensing
+    
+    - guidelines on using images from web
+    - included sources for free-to-use images and license review instructions
+    
+    * Chore: Remove trailing spaces
+    
+    * Fix :  Info Overload
+    
+    * Fix : paragraph length
+    
+    * feat(links-and-images,recipes): move note to links-and-images lesson
+
+[33mcommit 6cf367001e629e14f56866527253672df99960ad[m
+Author: MysticElven <LizardoAubrey.Software@gmail.com>
+Date:   Mon May 26 02:10:40 2025 +0800
+
+    Links and Image: Lesson 3 of Interneting is Hard.md (#29536)
+    
+    * Links and Image: Lesson 3 of Interneting is Hard.md
+    
+    Co-authored-by: Rachel Moser <33227096+rlmoser99@users.noreply.github.com>
